@@ -1,0 +1,18 @@
+<view class="wrapper">
+  <view class="into">
+    <view id="owl-login">
+      <image class="head" src="../../images/owl-login.png"></image>
+      <view class="hand"></view>
+      <view class="hand hand-r"></view>
+    </view>
+    <view class="control-group">
+      <view class="control">
+        <view class="control-1">欢迎来到音乐世界</view>
+        <view class="control-2">音乐的浪漫在于：它能将封存的记忆迅速拼凑起来，你会清晰的记起当时，听这首歌的感觉和状态，就像时空真的倒回某一刻。</view>
+      </view>
+        <view class="container">
+           <text bindtap="onTap" class="container1">{{a}}</text>
+        </view>
+    </view>
+  </view>
+</view>

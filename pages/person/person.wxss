@@ -1,0 +1,33 @@
+/* pages/person/person.wxss */
+page{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    margin-top:180rpx;
+    margin-bottom: 100rpx;
+}
+.name{
+    margin-top: -84rpx;
+    margin-left: 310rpx;
+}
+.biaoge{
+    width: 700rpx;
+    height: 600rpx;
+    margin: 40rpx auto;
+    border: 0.5rpx solid rgb(212, 212, 212);
+    border-radius: 20rpx;
+}
+.like{
+    width: 670rpx;
+    height: 100rpx;
+    margin-left: 16rpx;
+}
+.avater{
+    display: block;
+    width:160rpx;
+    height:160rpx;
+    border-radius:100%;
+}

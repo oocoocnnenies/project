@@ -1,0 +1,20 @@
+<!--pages/person/person.wxml-->
+<!-- <open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data> -->
+
+<view class="top">
+    <image class="avater" src="../../images/avatar/头像.jpg"></image>
+</view>
+<view class="name">我的名字</view>
+<view class="biaoge">
+<view class="like">
+  <l-list title="喜欢" icon="like" />
+</view>
+<view class="like">
+<l-list title="收藏" dot-badge="{{true}}" icon="favor" /></view>
+<view class="like"><l-list title="购买歌曲" icon="cart"/></view>
+<view class="like">  <l-list title="消息" icon="notification"
+    badge-count="2" badge-position="right" /></view>
+<view class="like"><l-list title="定位" icon="address" /></view>
+<view class="like"><l-list title="联系客服" icon="customer-service" /></view>
+</view>

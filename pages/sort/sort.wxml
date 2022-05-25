@@ -1,0 +1,42 @@
+<view class="search">
+<l-search-bar placeholder="搜索" bg-color="#f6f6f6"shape="circle"/>
+</view>
+<view class="title">专属场景歌单</view>
+<image class="posts-image1" src="../../images/gd2.jpg"></image>
+<image class="posts-image1" src="../../images/gd1.jpg"></image>
+<image class="posts-image1" src="../../images/gd3.jpg"></image>
+<text class="content1">电音与爱情的灵魂碰撞</text>
+<text class="content2">音乐中享受黄昏\n时分的橘色城市</text>
+<text class="content3">有酒有音乐 不打烊酒馆 今晚营业</text>
+<view class="title-1">热门话题</view>
+<block wx:for="{{posts}}">
+    <view class="container">
+        <l-card class="container" type="primary" 
+                l-img-class="right-card" 
+                position="left" 
+                image="{{item.imgSrc}}"
+                title="{{item.title}}">
+            <view class="content">
+                {{item.postsContent}}
+            </view>
+        </l-card>
+    </view>
+    <view class="container">
+        <l-card  type="primary" 
+                l-img-class="right-card" 
+                position="left" 
+                image="{{item.imgSrc1}}"
+            title="{{item.title1}}">
+                <view class="content">
+                    {{item.postsContent1}}
+                </view>
+        </l-card>
+    </view>
+</block>
+<!-- <view class="title">专属场景歌单</view>
+<image class="posts-image1" src="../../images/gd2.jpg"></image>
+<image class="posts-image1" src="../../images/gd1.jpg"></image>
+<image class="posts-image1" src="../../images/gd3.jpg"></image>
+<text class="content1">电音与爱情的灵魂碰撞</text>
+<text class="content2">音乐中享受黄昏\n时分的橘色城市</text>
+<text class="content3">有酒有音乐 不打烊酒馆 今晚营业</text> -->

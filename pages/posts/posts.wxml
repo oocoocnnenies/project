@@ -1,0 +1,46 @@
+<view>
+  <swiper interval="{{3000}}" circular indicator-dots="{{true}}" autoplay="{{true}}">
+    <swiper-item>
+        <image src="../../images/gq1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/gq2.jpg"></image>
+    </swiper-item>  
+    <swiper-item>
+        <image src="../../images/gq5.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/gq6.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="../../images/gq7.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{posts}}">
+    <view class="posts-container"> 
+      <view class="posts-auther-date"></view>
+      <text class="posts-title">{{item.title}}</text>
+      <image class="posts-image" src="../../images/tj3.jpg"></image>
+      <image class="posts-image-1" src="../../images/tj1.jpg"></image>
+      <image class="posts-image-2" src="../../images/tj2.jpg"></image>
+      <text class="posts-content">你好2022</text>
+      <text class="posts-content-1">与音乐相伴</text>
+      <text class="posts-content-2">云边有个小卖部</text>
+      <image class="posts-image" src="../../images/tj4.jpg"></image>
+      <image class="posts-image-3" src="../../images/tj7.jpg"></image>
+      <image class="posts-image-4" src="../../images/tj8.jpg"></image>
+      <text class="posts-content">治愈歌曲</text>
+      <text class="posts-content-1">夏日情绪</text>
+      <text class="posts-content-2">是个老式收音机</text>
+    </view>
+  </block>
+  <view class="box">
+  <view class="posts-title2">LOOK直播-->></view>
+  <image class="posts-image1" src="../../images/zb1.jpg"></image>
+  <image class="posts-image1" src="../../images/zb4.jpg"></image>
+  <image class="posts-image1" src="../../images/zb5.jpg"></image>
+  <text class="content">一起来唱歌吧</text>
+  <text class="content1">欢迎加入~</text>
+  <text class="content2">清澈甜嗓</text>
+  </view>
+</view>

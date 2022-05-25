@@ -1,0 +1,136 @@
+/* pages/posts/posts.wxss */
+swiper{
+    width: 100%;
+    height: 400rpx;
+}
+swiper image{
+    width: 100%;
+    height: 400rpx;
+}
+.posts-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+    background-color:#fff;
+    border-top:1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-bottom:10px;
+}
+.posts-auther-date{
+    margin: 10rpx 0 20rpx 10rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.posts-date{
+    font-size: small;
+}
+.posts-title{
+    font-size: 34rpx;
+    font-weight: 600;
+    margin: 0 0 20rpx 20rpx;
+    color: #333;
+    position: relative;
+}
+.posts-image{
+    width: 230rpx;
+    height: 200rpx;
+    margin-bottom: 30rpx;
+    margin-left: 20rpx;
+}
+.posts-image-1{
+    width: 230rpx;
+    height: 200rpx;
+    margin-bottom: 30rpx;
+    margin-left: 20rpx;
+    position: absolute;
+    top: 516rpx;
+    left: 240rpx;
+}
+.posts-image-2{
+    width: 230rpx;
+    height: 200rpx;
+    margin-bottom: 30rpx;
+    margin-left: 20rpx;
+    position: absolute;
+    top: 516rpx;
+    left: 480rpx;
+}
+.posts-image-3{
+    width: 230rpx;
+    height: 200rpx;
+    margin-bottom: 30rpx;
+    margin-left: 20rpx;
+    position: absolute;
+    top: 774rpx;
+    left: 240rpx;
+}
+.posts-image-4{
+    width: 230rpx;
+    height: 200rpx;
+    margin-bottom: 30rpx;
+    margin-left: 20rpx;
+    position: absolute;
+    top: 774rpx;
+    left: 482rpx;
+}
+.posts-content{
+    color: rgb(53, 51, 51);
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+    line-height: 10rpx;
+    letter-spacing: 2rpx;
+    margin-left: 32px;
+}
+.posts-content-1{
+    color: rgb(53, 51, 51);
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+    line-height: 10rpx;
+    letter-spacing: 2rpx;
+    margin-left: 300rpx;
+    margin-top: -46rpx;
+    line-height: 40rpx;
+}
+.posts-content-2{
+    color: rgb(53, 51, 51);
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+    line-height: 10rpx;
+    letter-spacing: 2rpx;
+    margin-left: 510rpx;
+    margin-top: -46rpx;
+}
+.posts-title2{
+    font-size: 34rpx;
+    font-weight: 600;
+    margin: 0 0 20rpx 20rpx;
+    color: #333;
+    position: relative;
+}
+.posts-image1{
+    width: 230rpx;
+    height: 200rpx;
+    margin-bottom: 10rpx;
+    margin-left: 16rpx;
+}
+.box{
+    width: 750rpx;
+    height: 360rpx;
+}
+.content{
+    font-size: 28rpx; 
+    margin-left: 20px;
+    font-weight: bold;
+}
+.content1{
+    font-size: 28rpx; 
+    margin-left: 50px;
+    font-weight: bold;
+}
+.content2{
+    font-size: 28rpx; 
+    margin-left: 60px;
+    font-weight: bold;
+}

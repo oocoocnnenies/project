@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+  "l-avater":"/miniprogram_npm/lin-ui/avatar/index"},
+  "navigationBarBackgroundColor": "#e71313"
+}
